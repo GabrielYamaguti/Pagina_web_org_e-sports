@@ -5,4 +5,7 @@
 <p>Obrigado pela atenção!</p>
 
 #
-
+As imagem são somente demonstração. Os elementos não seguem essa proporção. Veja com seus próprios olhos, abrindo o arquivo home.html 😊
+<div align="center">
+<img src="https://user-images.githubusercontent.com/116985295/203143465-ce32a4ce-b152-4fee-877a-c9346d8cb4c7.png" width=80% />
+</div>
