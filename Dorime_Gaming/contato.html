@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Contato - Dorime Gaming</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="estilo.js">
+		<link rel="shortcut icon" href="icon.png">
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+	</head>
+
+	<body>
+
+		<header>
+			<div class="caixa">
+				<h1><img id="logotipo" src="LogoGaming.png"></h1>
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="projeto.html">Projeto</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<li><a href="loja.html">Loja</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<div class="contato-conteudo">
+
+						<div class="contatodiv">
+								 <p class="titulo-principal">Contato</p>
+
+								<label for="nomesobrenome">Nome e sobrenome</label>
+								<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+								<label>E-mail</label>
+								<input type="email" id="e-mail" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+								<label>Telefone</label>
+								<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) XXXXX-XXXX">
+
+								<label for="Mensagem">Mensagem</label>
+								<textarea cols="30" rows="10"class="input-padrao" required placeholder="Motivo do contato"></textarea>
+
+
+								<fieldset>
+									<legend>Como prefere nosso contato ?</legend>
+									<label for="radio-email"><input type="radio" name="contato" value="e-mail" id="radio-email">E-mail</label>
+									
+
+									<label for="radio-celular"><input type="radio" name="contato" value="celular" id="radio-celular">Celular</label>
+									
+
+									<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked="whatsapp" >WhatsApp</label>
+								</fieldset>
+
+									<fieldset>
+										<legend>Qual horário prefere ser atendido ?</legend>
+										<select>
+											<option>Manhã</option>
+											<option>Tarde</option>
+											<option>Noite</option>
+										</select>
+									</fieldset>
+								
+								<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidade por e-mail ?</label>
+								<input type="submit" value="Enviar formulário" class="enviar">
+
+				</form>	
+					
+
+				</div>
+
+				<script>
+					ScrollReveal().reveal('.titulo-dorimegaming',{duration: 1000});
+					ScrollReveal().reveal('.produtos',{duration: 1000});
+					ScrollReveal().reveal('.principal',{duration: 1000});
+					ScrollReveal().reveal('.titulo-loja',{duration: 1000});
+					ScrollReveal().reveal('.titulo-contato',{duration: 1000});
+					ScrollReveal().reveal('.contato-conteudo',{duration: 1000});
+							
+				</script>
+	  			   
+						<table>
+							<tr>
+								<td>Dia</td>
+								<td>Horario</td>
+							</tr>
+							<tr>
+								<td>Segunda</td>
+								<td>8h ~ 20h</td>
+							</tr>
+							<tr>
+								<td>Quarta</td>
+								<td>8h ~ 20h</td>
+							</tr>
+							<tr>
+								<td>Sexta</td>
+								<td>8h ~ 20h/td>
+							</tr>
+							
+						</table>
+
+					</div>
+
+				</div>
+		</main>
+
+		<footer>
+			<img id="logofooter" src="logofooter.png" alt="Logo Escrito Dorime Gaming">
+			<p class="copyright">&copy; Copyright Dorime Gaming - 2023</p>
+		</footer>
+
+	</body>
+</html>
